@@ -1,0 +1,23 @@
+Készíts egy .net core webservizt ami REST apival rendekezik
+
+és postgres adatbazisban tarolja egy organizáció fa struktúráját. Az adatbázis
+
+szerkezet legyen nestedset alapú, hogy gyorsan lehessen lekérdezni. Készítsd el
+
+az lekérdezés (egy elemre és egy csúcshoz tartozó részfára is ), hozzáadás,
+
+törlés és módosítás REST hívásait. Ezek használatára adj curl példát is. Az
+
+applikációt lehessen konténerből futtatni ehhez készítsd el a szükséges docker
+
+fileokat és a docker-compose.yml-t ami tartalmazza a postgresql instance
+
+futtatását is. Valamit készíts hozzá kubernetes konfigurációs fileokat.
+
+Kérlek adj hozzá még DTO validációt, hozzáférés ellenőrzést,
+
+loggolást swagger dokumentációt, teszteket és CI/CD pipeline konfigurációt
+
+githubra. Valamit az élő környezeti beállítások titkos kezelésére is szükségem
+
+lenne. Az eredményt tedd elérhetővé egy zip fileban.
