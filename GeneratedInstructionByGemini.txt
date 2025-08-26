@@ -178,6 +178,14 @@ public class AppDbContext : DbContext
         );
     }
 }
+
+Init DB commands
+dotnet tool install --global dotnet-ef
+dotnet add package Microsoft.EntityFrameworkCore.Design
+dotnet ef migrations add InitialCreate
+dotnet ef database update
+
+
 3. DTO-k és Validáció
 A DTO (Data Transfer Object) objektumok segítségével választjuk szét a belső adatbázis modellünket a kifelé mutatott API-tól.
 

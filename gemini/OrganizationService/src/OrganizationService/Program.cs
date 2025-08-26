@@ -64,6 +64,7 @@ builder.Services.AddSwaggerGen(options =>
     });
 });
 
+/*
 // 5. Hozzáférés-ellenőrzés (JWT Bearer)
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
@@ -80,7 +81,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         };
     });
 builder.Services.AddAuthorization();
-
+*/
 
 var app = builder.Build();
 
